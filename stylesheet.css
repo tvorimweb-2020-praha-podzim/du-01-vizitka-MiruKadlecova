@@ -12,12 +12,12 @@ body {
     width:200px;
     border-radius: 50%;
     border: 2px solid white;
+    margin: 2rem;
 }
 
 .header {
     background-image: url("mountains.jpg");
-    height: 300px;
-    vertical-align: middle;
+    min-height: 300px;
 }
 
 p {
@@ -27,10 +27,11 @@ p {
 }
 
 .table_social {
-    align: center;
+    text-align: center;
     margin-left:auto; 
     margin-right:auto; 
     width:100px;
+    padding: 0.5rem;
 }
 
 .grey {
